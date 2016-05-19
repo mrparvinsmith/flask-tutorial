@@ -1,0 +1,14 @@
+<!doctype html>
+<meta charset="utf-8">
+
+  <title>Hello from Flask</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link type="text/css" rel="stylesheet" href="/static/style.css" />
+<div class="hello">
+{% if name %}
+  <h1>Hello {{ name }}!</h1>
+{% else %}
+  <h1>Hello World!</h1>
+{% endif %}
+
+</div>
