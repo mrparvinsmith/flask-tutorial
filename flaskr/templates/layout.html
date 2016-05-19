@@ -1,7 +1,9 @@
 <!doctype html>
 <title>Flaskr</title>
+
 <!-- gets the css -->
 <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
 <div class=page>
   <h1>Flaskr</h1>
   <div class=metanav>
@@ -17,4 +19,6 @@
 
   <!-- the below lets the body of a child template get inserted here (similar to nested views with ui-router in angular.js) -->
   {% block body %}{% endblock %}
+
+  <script src="{{ url_for('static', filename='main.js') }}"></script>
 </div>
