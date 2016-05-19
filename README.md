@@ -22,8 +22,8 @@
     		app.run()
     		
 	- **NOTE:** those are two underscores on each side of `name` and `main`, not one!
-	- **ANOTHER NOTE:** the spacing is VERY IMPORTANT, Python uses spacing accomplish the same thing as curly braces in JavaScript
-- Then in run the app from your terminal using `python hello.py`
+	- **ANOTHER NOTE:** the spacing is VERY IMPORTANT, Python uses spacing to accomplish the same thing as curly braces in JavaScript
+- Then run the app from your terminal using `python hello.py`
 	- You should see the following:
 			
 			* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
