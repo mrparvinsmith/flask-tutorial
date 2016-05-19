@@ -1,3 +1,6 @@
+#The Docs
+The [docs](http://flask.pocoo.org/docs/0.10/) for Flask.
+
 #To Get Flask Installed
 - Download at least [Python 2.7.11](https://www.python.org/downloads/)  
 - Then run `pip install Flask` from your terminal
@@ -29,3 +32,8 @@
 			* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
 - Got to [localhost:5000](http://localhost:5000) and check it out!
+
+#Making an html page with Flask
+- It has a library called Jinja that uses embedded Python, similar to how embedded javascript or ruby was done
+	- Use `{%  %}` for the equivalent of flounders (do stuff, but don't show stuff)
+	- Use `{{  }}` for the equivalent of squids (show stuff)
