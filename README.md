@@ -12,7 +12,7 @@ The [docs](http://flask.pocoo.org/docs/0.10/) for Flask.
 
 
 	- To stop running virtualenv just type `deactivate` in your terminal
-- Make a file called hello.py and put this code in it:
+- To test, let's make a file called hello.py and put this code in it:
 
 		from flask import Flask
 		app = Flask(__name__)
@@ -26,7 +26,7 @@ The [docs](http://flask.pocoo.org/docs/0.10/) for Flask.
     		
 	- **NOTE:** those are two underscores on each side of `name` and `main`, not one!
 	- **ANOTHER NOTE:** the spacing is VERY IMPORTANT, Python uses spacing to accomplish the same thing as curly braces in JavaScript
-- Then run the app from your terminal using `python hello.py`
+- Then run the app from your terminal using `python hello.py` (this is how we run python apps)
 	- You should see the following:
 			
 			* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
