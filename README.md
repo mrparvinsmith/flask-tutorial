@@ -28,4 +28,4 @@
 			
 			* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 
-- Got to <localhost:5000> and check it out!
+- Got to [localhost:5000](http://localhost:5000) and check it out!
